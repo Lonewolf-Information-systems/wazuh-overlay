@@ -6,8 +6,8 @@ EAPI=6
 
 KEYWORDS="~*"
 
-DESCRIPTION="Installs simple cron.weekly script, to automate genup"
-HOMEPAGE="https://github.com/sakaki-/gentoo-on-rpi3-64bit"
+DESCRIPTION="Installs simple cron.daily script, to automate wazuh-rules updates."
+HOMEPAGE=""
 SRC_URI=""
 LICENSE="GPL-3+"
 SLOT="0"
@@ -25,7 +25,7 @@ RDEPEND="${DEPEND}
 
 src_install() {
 	exeinto /etc/cron.daily
-	newexe "${FILESDIR}/cron.weekly_genup-2" "genup"
+	newexe "${FILESDIR}/cron.daily_genup-2" "genup"
 }
 
 pkg_postinst() {
