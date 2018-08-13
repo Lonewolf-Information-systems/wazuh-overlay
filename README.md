@@ -1,4 +1,4 @@
- ![alt text](https://avatars2.githubusercontent.com/u/13752566?s=200&v=4) Wazuh Overlay
+ ![wazuh ico](https://avatars2.githubusercontent.com/u/13752566?s=200&v=4) Wazuh Overlay
 ================
 ### https://github.com/wazuh  
 ### Unofical Ebuilds for WAZUH.
