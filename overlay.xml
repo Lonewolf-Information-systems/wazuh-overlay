@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>wazuh</name>
+		<description>This repository contains the ebuild for the Wazuh SIEM/FIM/Sec mon tool/s </description>
+		<homepage>https://github.com/necrose99/necromancy-overlay</homepage>
+		<owner type="person"><name><![CDATA[Michael Lawrenceit]]></name>
+			 <email>mike@michaellawrenceit.com</email>
+			<!--- necrose99@protonmail.ch   --- for the tinfoil hats encypted email --!>
+			</owner>    
+		source type="git">https://github.com/Lonewolf-Information-systems/wazuh-overlay</source>
+		<source type="git">git://github.com/Lonewolf-Information-systems/wazuh-overlay.git</source>
+    		<source type="git">git@github.com/Lonewolf-Information-systems/wazuh-overlay.git</source>
+		 <feed>https://github.com/Lonewolf-Information-systems/wazuh-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>
