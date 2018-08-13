@@ -1,8 +1,8 @@
-Skeleton Overlay
+Wazuh Overlay
 ================
 
-This is a "skeleton" overlay -- an empty overlay to use as the starting point
-for collaborating with Funtoo Linux. To start using the overlay, perform the
+This is a "Wazuh" overlay -- an empty overlay to use as the starting point
+for collaborating with Gentoo/Funtoo/Sabayon Linux. To start using the overlay, perform the
 following steps:
 
 1. Review COPYRIGHT.txt and LICENSE.txt. What is provide are reasonable defaults,
@@ -23,22 +23,3 @@ following steps:
 4. Add ebuilds :)
 
 
-=================================
-How to Contribute to this Overlay
-=================================
-
-:author: Daniel Robbins
-:contact: drobbins@funtoo.org
-:language: English
-
-Greetings GitHub Users!
-=======================
-
-.. _bugs.funtoo.org: https://bugs.funtoo.org
-
-To contribute bug reports for this overlay, you can open up a GitHub issue or send
-me a pull request.
-
-If you are using ebuilds in this overlay as part of Funtoo Linux (because they are
-merged into the main Funtoo Linux Portage tree, for example,) then
-please also open an issue at `bugs.funtoo.org`_.
