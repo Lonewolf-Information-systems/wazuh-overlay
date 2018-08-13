@@ -1,0 +1,38 @@
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI="6"
+
+KEYWORDS="amd64 arm x86" #arm64 
+DESCRIPTION="Wazuh meta ebuild to install all apps"
+HOMEPAGE="wazuh.com"
+SLOT="0"
+LICENSE="GPL-3"
+IUSE=""
+
+DEPEND=""
+
+RDEPEND="
+
+PDEPEND="analyzer? (  )
+	bluetooth? (  )
+	cracking? (g )
+	database? ( abase )
+	desktop? ( -desktop )
+	exploit? ( pploit )
+	footprint? ( -footprint )
+	forensics? ( orensics )
+	forging? ( -forging )
+	fuzzers? ( o-fuzzers )
+	misc? ( -misc )
+	mitm? ( -mitm )
+	mobile? ( -mobile )
+	nfc? ( o-nfc )
+	pentoo? ( system )
+	proxies? ( -proxies )
+	radio? ( radio )
+	rce? (o-rce )
+	scanner? ( -scanner )
+	voip? ( pp )
+	wireless? ( p )"
