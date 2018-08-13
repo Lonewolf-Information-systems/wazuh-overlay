@@ -13,15 +13,15 @@ inherit python-single-r1
 
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/threat9/routersploit.git"
+	EGIT_REPO_URI="https://github.com/wazuh/wazuh-ruleset.git"
 	KEYWORDS=""
 else
-	SRC_URI="https://github.com/threat9/routersploit/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/wazuh/wazuh-ruleset/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 fi
 
 DESCRIPTION="An open-source exploitation framework dedicated to embedded devices"
-HOMEPAGE="https://github.com/threat9/routersploit/wiki"
+HOMEPAGE="https://wazuh.com"
 LICENSE="BSD"
 SLOT="0"
 IUSE="doc desktopicons bluetooth"
