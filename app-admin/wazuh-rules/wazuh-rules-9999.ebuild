@@ -1,3 +1,6 @@
+
+https://github.com/wazuh/wazuh-ruleset.git for live... 
+https://github.com/wazuh/wazuh-ruleset/releases/tag/v3.4.0 
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
